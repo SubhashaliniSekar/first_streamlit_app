@@ -6,3 +6,5 @@ streamlit.text('Onion Dosa');
 streamlit.text('chola poori');
 streamlit.text('Idle');
 streamlit.text('masala Dosa');
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇');
+
