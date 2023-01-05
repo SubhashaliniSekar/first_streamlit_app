@@ -43,10 +43,10 @@ try:
 except URLError as e:
   streamlit.error()
 
-def insertrow_snowflake(add_fruit)
-with my_cnx.cursor() as my_cur:
-   my_cur.execute("select * from pc_rivery_db.public.fruit_load_list('from streamlit')")
-   return "thanks for adding"+add_Fruit
+def insertrow_snowflake(add_fruit):
+   with my_cnx.cursor() as my_cur:
+      my_cur.execute("select * from pc_rivery_db.public.fruit_load_list('from streamlit')")
+      return "thanks for adding"+add_Fruit
 
 
 add_my_fruit=streamlit.text_input('what fruit did you like to add?')
